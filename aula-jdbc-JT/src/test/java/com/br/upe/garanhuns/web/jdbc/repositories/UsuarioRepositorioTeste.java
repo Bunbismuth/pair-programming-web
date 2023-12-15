@@ -1,4 +1,4 @@
-package com.br.upe.garanhuns.web.repositories;
+package com.br.upe.garanhuns.web.jdbc.repositories;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
@@ -9,7 +9,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 
 import com.br.upe.garanhuns.web.jdbc.model.Usuario;
-import com.br.upe.garanhuns.web.jdbc.repositories.UsuarioRepositorio;
 
 @SpringBootTest
 @TestPropertySource("classpath:application-teste.properties")
